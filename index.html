@@ -11,16 +11,17 @@
 </head>
 <body>
     <div class="container">
-      <form action="">
+      <form action="" class="numbers">
         <h1>Count Up By</h1>
         <p>Enter two whole numbers, one to count to and another to determine what multiples to use to get there.</p>
+        <h6>Hint: This works best if the number to count to is a large number and both numbers should be positive numbers greater than 1.</h6>
         <div class="form-group">
           <label for="number1">Number to count up to:</label>
-          <input type="text" id="number1" class="form-control">
+          <input type="text" id="number1" class="form-control" required>
         </div>
         <div class="form-group">
           <label for="number2">Count by multiples of...:</label>
-          <input type="text" id="number2" class="form-control">
+          <input type="text" id="number2" class="form-control" required>
         </div>
         <button class="btn" type="submit">Show result</button>
       </form>
